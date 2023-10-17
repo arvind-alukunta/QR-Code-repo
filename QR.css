@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 10;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    background-color: rgba(185,185,255,0.5);
+    background-image: url('./My\ project-1.webp') ;
+    background-position-x: center;
+    background-position-y: 50px;
+    background-repeat: no-repeat;
+}
+
+.container{
+    height: 100px;
+    width: 350px;
+    border-radius: 10px;
+    padding: 25px;
+    padding-bottom: 10px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0,1);
+    color: white;
+    margin-top: -350px;
+
+}
+
+form{
+    margin-top: 2vh;
+    text-align: center;
+    background-color: gray;
+    margin-left:380px;
+    
+}
+ 
+form input{
+   height: 20px;
+   width: 350px;
+   background-color: white;
+   border-radius: 8px;
+   padding: 25px;
+   box-shadow: 0 10px 30px rgba(0,0,0,0,1);
+   transform: height 0.2s ease;
+}
+.button-hover:hover{
+    background-color: green;
+    color: white;
+}
+form button{
+    display: block;
+    margin: 0;
+    color: blue;
+    border: none;
+    border-radius: 8px;
+    width: 350px;
+    height: 40px;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    align-items: center;
+}
+ 
+.img-div {
+    display: block;
+    margin-top: 100px;
+    margin-left: 420px; 
+}
+h1{
+    text-align: center;
+}
