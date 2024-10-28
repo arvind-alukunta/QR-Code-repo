@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>QR-Reader</title>
+    <link rel="stylesheet" href="QR.css">
+    <script src="QR.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>QR Code Generator</h1>
+            <form onsubmit="handleSubmit(event)">
+                <input id="inptxt" type="text" autocomplete="off">
+                <br>
+                <button class="button-hover" type="submit">Generate QR</button>
+            </form>
+            <div class="img-div">
+                <img id="qrimg" />
+            </div>
+    </div>
+</body>
+</html>
